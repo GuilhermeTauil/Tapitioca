@@ -3,7 +3,6 @@ import styles from "../styles/Home.module.css";
 import Nav from "./components/navbar";
 import Slide from "./components/slide";
 import Footer from "./components/footer";
-import SimpleMap from "./components/googlemaps";
 
 export default function Home() {
   return (
@@ -14,13 +13,15 @@ export default function Home() {
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
           integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-          crossorigin="anonymous"
+          crossOrigin=""
         />
       </Head>
 
       <main className={styles.main}>
         <Nav />
-        <div className={styles.div1} id="section1"></div>
+        <div className={styles.div1} id="section1">
+          <img alt="capa" />
+        </div>
         <div className={styles.hero_text}>
           <h1>Tapitioca</h1>
           <p>Espaço para eventos</p>
