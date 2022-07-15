@@ -1,0 +1,40 @@
+.main html {
+  scroll-behavior: smooth;
+}
+
+.MainNav {
+  padding: 1%;
+  background-color: rgb(253, 253, 253);
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+.navbar {
+  overflow: hidden;
+  width: 100%;
+  transition-timing-function: ease;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  color: rgb(25, 253, 5);
+}
+
+@media screen and (max-width: 600px) {
+  .navbar li {
+    margin-right: 15px;
+  }
+  .MainNav a {
+    font-size: 10px;
+  }
+}
