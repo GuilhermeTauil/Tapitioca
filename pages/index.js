@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Nav from "./components/navbar";
 import Slide from "./components/slide";
 import Footer from "./components/footer";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -19,7 +20,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <Nav />
-        <div className={styles.div1} id="section1"></div>
+        <div className={styles.div1} id="section1">
+          <Image
+            src="/tapitioca_fogueira.jpg"
+            alt="Picture of the author"
+            layout="fill"
+          />
+        </div>
         <div className={styles.hero_text}>
           <h1>Tapitioca</h1>
           <p>Espaço para eventos</p>
