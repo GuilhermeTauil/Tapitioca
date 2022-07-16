@@ -23,8 +23,9 @@ export default function Home() {
         <div className={styles.div1} id="section1">
           <Image
             src="/tapitioca_fogueira.jpg"
-            alt="Picture of the author"
-            layout="fill"
+            layout="responsive"
+            width={700}
+            height={475}
           />
         </div>
         <div className={styles.hero_text}>
