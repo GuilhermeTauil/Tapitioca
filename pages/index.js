@@ -19,9 +19,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Nav />
-        <div className={styles.div1} id="section1">
-          <img alt="capa" />
-        </div>
+        <div className={styles.div1} id="section1"></div>
         <div className={styles.hero_text}>
           <h1>Tapitioca</h1>
           <p>Espaço para eventos</p>
